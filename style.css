@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Pacifico;
+    margin: 0;
+    background: #f9f9f9;
+}
+
+h1 {
+  font-family: Pacifico;
+  font-size: 42px;
+  text-align: center;
+}
+
+
+.big-boxes, .medium-boxes {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.big-box, .medium-box {
+    background: #1eccc0;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.big-box img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+.big-box:hover {
+    transform: scale(1.05);
+}
+
+
+    .big-boxes {
+        flex-direction: column;
+    }
+
