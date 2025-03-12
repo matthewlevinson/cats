@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+    font-family: 'Charm', sans-serif; 
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px; 
+  }
+  
+  .quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px; 
+    transition: all 0.3s ease; 
+  }
+
+  .box1 {
+    width: 180px;
+    height: 80px;
+    background-color: pink;
+    color: pink;
+  }
+  
+
+  .box2 {
+    width: 150px;
+    height: 50px;
+    background-color: lime;
+    color: lime;
+  }
+  
+  .box3 {
+    width: 200px;
+    height: 100px;
+    background-color: orangered;
+    color: orangered;
+  }
+
+  .box4 {
+    width: 250px;
+    height: 120px;
+    background-color: purple;
+    color: purple;
+  }
+  
+  .box5 {
+    width: 200px;
+    height: 90px;
+    background-color: skyblue;
+    color: skyblue;
+  }
+
+  .box6 {
+    width: 240px;
+    height: 110px;
+    background-color: brown;
+    color: brown;
+  }
+  
+  .quote:hover {
+    color: black;
+    transform: scale(1.1); 
+  }
+ 
+  .quote:active {
+    background-color: lime;
+    transform: scale(1.1); 
+  }
+  
+  
