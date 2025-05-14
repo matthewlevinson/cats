@@ -1,53 +1,125 @@
+/* Body Styling */
 body {
-    font-family: Arial, Pacifico;
-    margin: 0;
-    background: #f9f9f9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("BG.png");
+  background-size: cover; /* Make the image cover the entire screen */
+  background-position: center; /* Position the image at the center */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Keep the background fixed while scrolling */
+  color: #2; /* Default text color */
 }
 
-h1 {
-  font-family: Pacifico;
-  font-size: 42px;
+/* Header Styling */
+header {
+  background-color: #000; /* Black background for the header */
+  padding: 20px 0; /* Adjust padding for a more prominent header */
+  color: #fff; /* White text */
+}
+
+header nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+header nav ul li a {
+  color: #fff; /* White text for the links */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #f9d342; /* Hover color */
+}
+
+/* Hero Section */
+#hero {
+  background-color: rgba(255, 255, 255, 0.7); /* Slightly transparent background for the hero section */
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#hero h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 20px;
+  color: #555;
+}
+
+#hero img {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(29, 29, 29, 0.8); /* Semi-transparent footer */
+  color: #fff;
+}
+
+/* Stats Section */
+section {
+  padding: 0px;
+}
+
+section h1,
+section h2 {
+  text-align: center; /* Centers the headers */
+}
+
+/* Container for Content */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Achievements Section */
+.achievements {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.achievement {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-
-.big-boxes, .medium-boxes {
-    display: flex;
-    gap: 20px;
-    margin: 20px;
-    flex-wrap: wrap;
+.achievement h3 {
+  color: #2a2a2a;
 }
 
-.big-box, .medium-box {
-    background: #1eccc0;
-    padding: 20px;
-    border-radius: 10px;
-    flex: 1;
+.achievement p {
+  color: #555;
 }
 
-.big-box img {
-    width: 110px;
-    height: 110px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-right: 20px;
+/* Footer Styling (Revised) */
+footer {
+  text-align: center;
+  padding: 5px 0;
+  background-color: #2a2a2a;
+  color: #fff;
+  font-size: 12px;
 }
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    color: white;
-}
-
-.big-box:hover {
-    transform: scale(1.05);
-}
-
-
-    .big-boxes {
-        flex-direction: column;
-    }
-
